@@ -103,7 +103,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX\",\n    \"type\": \"token\",\n    \"attributes\": {\n      \"access_token\": \"Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX\",\n      \"token_type\": \"Bearer\",\n      \"expires_in\": 3600\n    }\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX\",\n    \"type\": \"token\",\n    \"attributes\": {\n      \"accessToken\": \"Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX\",\n      \"tokenType\": \"Bearer\",\n      \"expiresIn\": 3600\n    }\n  }\n}",
           "type": "json"
         }
       ]
@@ -407,14 +407,14 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.first_name",
+            "field": "data.attributes.firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.last_name",
+            "field": "data.attributes.lastName",
             "description": "<p>Last name</p>"
           },
           {
@@ -429,7 +429,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"first_name\": \"Jack\",\n      \"last_name\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"firstName\": \"Jack\",\n      \"lastName\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
           "type": "json"
         }
       ]
@@ -548,14 +548,14 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.first_name",
+            "field": "data.attributes.firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.last_name",
+            "field": "data.attributes.lastName",
             "description": "<p>Last name</p>"
           },
           {
@@ -570,7 +570,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"first_name\": \"Jack\",\n      \"last_name\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"firstName\": \"Jack\",\n      \"lastName\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
           "type": "json"
         }
       ]
@@ -685,7 +685,7 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "meta.total_objects",
+            "field": "meta.totalObjects",
             "description": "<p>Total objects of current page</p>"
           },
           {
@@ -727,14 +727,14 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.first_name",
+            "field": "data.attributes.firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.last_name",
+            "field": "data.attributes.lastName",
             "description": "<p>Last name</p>"
           },
           {
@@ -796,7 +796,7 @@
         },
         {
           "title": "Empty list",
-          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"meta\": {\n    \"total_objects\": 0\n  },\n  \"data\": [],\n  \"links\": {\n    \"self\": \"http://example.com/users?page[offset]=0&page[limit]=2\",\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"meta\": {\n    \"totalObjects\": 0\n  },\n  \"data\": [],\n  \"links\": {\n    \"self\": \"http://example.com/users?page[offset]=0&page[limit]=2\",\n  }\n}",
           "type": "json"
         }
       ]
@@ -850,14 +850,14 @@
             "group": "Parameter",
             "type": "String",
             "optional": true,
-            "field": "first_name",
+            "field": "firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Parameter",
             "type": "String",
             "optional": true,
-            "field": "last_name",
+            "field": "lastName",
             "description": "<p>Last name</p>"
           }
         ]
@@ -919,14 +919,14 @@
             "group": "Success - Created 201",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.first_name",
+            "field": "data.attributes.firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Success - Created 201",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.last_name",
+            "field": "data.attributes.lastName",
             "description": "<p>Last name</p>"
           },
           {
@@ -941,7 +941,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"first_name\": \"Jack\",\n      \"last_name\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"firstName\": \"Jack\",\n      \"lastName\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
           "type": "json"
         }
       ]
@@ -1017,14 +1017,14 @@
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "first_name",
+            "field": "firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "last_name",
+            "field": "lastName",
             "description": "<p>Last name</p>"
           }
         ]
@@ -1086,14 +1086,14 @@
             "group": "Success - Created 201",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.first_name",
+            "field": "data.attributes.firstName",
             "description": "<p>First name</p>"
           },
           {
             "group": "Success - Created 201",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.last_name",
+            "field": "data.attributes.lastName",
             "description": "<p>Last name</p>"
           },
           {
@@ -1108,7 +1108,7 @@
       "examples": [
         {
           "title": "Success",
-          "content": "HTTP/1.1 201 Created\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"first_name\": \"Jack\",\n      \"last_name\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
+          "content": "HTTP/1.1 201 Created\n{\n  \"jsonapi\": {\n    \"version\": \"1.0.0\"\n  },\n  \"data\": {\n    \"id\": \"1\",\n    \"type\": \"user\",\n    \"attributes\": {\n      \"email\": \"jack@example.com\",\n      \"firstName\": \"Jack\",\n      \"lastName\": \"Sparrow\",\n      \"birthday\": \"2010-10-12T08:50Z\"\n    }\n  }\n}",
           "type": "json"
         }
       ]

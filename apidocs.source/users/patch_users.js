@@ -13,8 +13,8 @@
  *     { "Authorization": "Bearer Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX" }
  *
  * @apiParam {String} [password]   Password
- * @apiParam {String} [first_name] First name
- * @apiParam {String} [last_name]  Last name
+ * @apiParam {String} [firstName] First name
+ * @apiParam {String} [lastName]  Last name
  *
  * @apiSuccess (Success - Created 201) {Object} jsonapi                         Object describing the server's implementation
  * @apiSuccess (Success - Created 201) {String} jsonapi.version                 Version of API
@@ -23,8 +23,8 @@
  * @apiSuccess (Success - Created 201) {String} data.id                         Id of user
  * @apiSuccess (Success - Created 201) {Object} data.attributes                 Object representing some of the resource's data
  * @apiSuccess (Success - Created 201) {String} data.attributes.email           Email <code>(only show when current user access)</code>
- * @apiSuccess (Success - Created 201) {String} data.attributes.first_name      First name
- * @apiSuccess (Success - Created 201) {String} data.attributes.last_name       Last name
+ * @apiSuccess (Success - Created 201) {String} data.attributes.firstName      First name
+ * @apiSuccess (Success - Created 201) {String} data.attributes.lastName       Last name
  * @apiSuccess (Success - Created 201) {String} data.attributes.birthday        Birthday (ISO 8601 format)
  *
  * @apiSuccessExample {json} Success
@@ -38,8 +38,8 @@
  *         "type": "user",
  *         "attributes": {
  *           "email": "jack@example.com",
- *           "first_name": "Jack",
- *           "last_name": "Sparrow",
+ *           "firstName": "Jack",
+ *           "lastName": "Sparrow",
  *           "birthday": "2010-10-12T08:50Z"
  *         }
  *       }

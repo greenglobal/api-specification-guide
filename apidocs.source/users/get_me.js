@@ -19,8 +19,8 @@
  * @apiSuccess {String} data.id                         Id of user
  * @apiSuccess {Object} data.attributes                 Object representing some of the resource's data
  * @apiSuccess {String} data.attributes.email           Email <code>(only show when current user access)</code>
- * @apiSuccess {String} data.attributes.first_name      First name
- * @apiSuccess {String} data.attributes.last_name       Last name
+ * @apiSuccess {String} data.attributes.firstName      First name
+ * @apiSuccess {String} data.attributes.lastName       Last name
  * @apiSuccess {String} data.attributes.birthday        Birthday (ISO 8601 format)
  *
  * @apiSuccessExample {json} Success
@@ -34,8 +34,8 @@
  *         "type": "user",
  *         "attributes": {
  *           "email": "jack@example.com",
- *           "first_name": "Jack",
- *           "last_name": "Sparrow",
+ *           "firstName": "Jack",
+ *           "lastName": "Sparrow",
  *           "birthday": "2010-10-12T08:50Z"
  *         }
  *       }

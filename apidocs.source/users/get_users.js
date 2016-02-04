@@ -14,14 +14,14 @@
  * @apiSuccess {Object}   jsonapi                    Object describing the server's implementation
  * @apiSuccess {String}   jsonapi.version            Version of API
  * @apiSuccess {Object}   meta                       Object contains non-standard meta-information
- * @apiSuccess {String}   meta.total_objects         Total objects of current page
+ * @apiSuccess {String}   meta.totalObjects         Total objects of current page
  * @apiSuccess {Object[]} data                       Array of user object
  * @apiSuccess {String}   data.type                  Resource type
  * @apiSuccess {String}   data.id                    Id of user
  * @apiSuccess {Object}   data.attributes            Object representing some of the resource's data
  * @apiSuccess {String}   data.attributes.email      Email <code>(only show when current user access)</code>
- * @apiSuccess {String}   data.attributes.first_name First name
- * @apiSuccess {String}   data.attributes.last_name  Last name
+ * @apiSuccess {String}   data.attributes.firstName First name
+ * @apiSuccess {String}   data.attributes.lastName  Last name
  * @apiSuccess {String}   data.attributes.birthday   Birthday (ISO 8601 format)
  * @apiSuccess {Object}   links                      Object contains links of pagination
  * @apiSuccess {Object}   links.self                 Current link
@@ -76,7 +76,7 @@
  *         "version": "1.0.0"
  *       },
  *       "meta": {
- *         "total_objects": 0
+ *         "totalObjects": 0
  *       },
  *       "data": [],
  *       "links": {

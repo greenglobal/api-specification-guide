@@ -30,9 +30,9 @@
  *         "id": "Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX",
  *         "type": "token",
  *         "attributes": {
- *           "access_token": "Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX",
- *           "token_type": "Bearer",
- *           "expires_in": 3600
+ *           "accessToken": "Qcg6yI1a5qCxXgKWtSAbZ2MIHFChHAq0Vc1Lo4TX",
+ *           "tokenType": "Bearer",
+ *           "expiresIn": 3600
  *         }
  *       }
  *     }
