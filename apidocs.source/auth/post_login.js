@@ -16,9 +16,9 @@
  * @apiSuccess {String} data.type                       Resource type
  * @apiSuccess {String} data.id                         Resource id
  * @apiSuccess {Object} data.attributes                 Object representing some of the resource's data
- * @apiSuccess {String} data.attributes.access_token    Access Token
- * @apiSuccess {String} data.attributes.token_type      Token type
- * @apiSuccess {String} data.attributes.expires_in      Time to expiry
+ * @apiSuccess {String} data.attributes.accessToken     Access Token
+ * @apiSuccess {String} data.attributes.tokenType       Token type
+ * @apiSuccess {String} data.attributes.expiresIn       Time to expiry
  *
  * @apiSuccessExample {json} Success
  *     HTTP/1.1 200 OK
