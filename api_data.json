@@ -81,21 +81,21 @@
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.access_token",
+            "field": "data.attributes.accessToken",
             "description": "<p>Access Token</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.token_type",
+            "field": "data.attributes.tokenType",
             "description": "<p>Token type</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "data.attributes.expires_in",
+            "field": "data.attributes.expiresIn",
             "description": "<p>Time to expiry</p>"
           }
         ]
