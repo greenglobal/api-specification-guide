@@ -1,0 +1,31 @@
+{
+  "name": "API Templates",
+  "version": "1.0.0",
+  "description": "API Templates",
+  "title": "API Templates",
+  "url" : "/v1",
+  "header": {
+    "title": "Intro",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Error Code Table",
+    "filename": "footer.md"
+  },
+  "order": [
+    "Auth",
+    "AuthLogin",
+    "AuthLogout",
+    "Users",
+    "UsersPostUsers",
+    "UsersGetMe",
+    "UsersGetUser",
+    "UsersGetUsers",
+    "UsersPatchUsers",
+    "UsersDeleteUsers"
+  ],
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

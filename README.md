@@ -1320,5 +1320,5 @@ GET|PUT|PATCH|DELETE http://www.example.com/products/66432
 
 ```
 npm install apidoc -g
-apidoc -i ./apidocs.source -o ./apidocs/ -t ./apidocs.template
+apidoc -i ./apidocs.source -t ./apidocs.template -o ./
 ```
