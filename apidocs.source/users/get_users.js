@@ -44,8 +44,8 @@
  *           "id": "2",
  *           "type": "user",
  *           "attributes": {
- *             "first_name": "Ellie",
- *             "last_name": "Fredricksen",
+ *             "firstName": "Ellie",
+ *             "lastName": "Fredricksen",
  *             "birthday": "1990-12-03T00:00Z"
  *           }
  *         },
@@ -54,8 +54,8 @@
  *           "type": "user",
  *           "attributes": {
  *             "email": "jack@example.com",
- *             "first_name": "Jack",
- *             "last_name": "Sparrow",
+ *             "firstName": "Jack",
+ *             "lastName": "Sparrow",
  *             "birthday": "1987-10-12T00:00Z"
  *           }
  *         }
